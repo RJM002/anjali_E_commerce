@@ -1,0 +1,28 @@
+/* UserInfo.css */
+
+.user-info-navbar {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    margin-left: 20px; /* Space from left */
+    color: #495057; /* Darker text color */
+}
+
+.welcome-message {
+    margin-right: 10px; /* Space between message and button */
+    font-size: 1rem; /* Font size for better readability */
+}
+
+.logout-button {
+    padding: 5px 10px; /* Smaller padding for a compact button */
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 0.875rem; /* Slightly smaller font size */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

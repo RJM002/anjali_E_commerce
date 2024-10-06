@@ -1,0 +1,35 @@
+/* Navigation.css */
+
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.nav-link {
+    color: #343a40; /* Dark text color */
+    margin: 0 15px; /* Space between links */
+    font-weight: 500; /* Medium weight for links */
+}
+
+.auth-link {
+    font-weight: 600; /* Bold for authentication links */
+    color: #007bff; /* Bootstrap primary color */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.auth-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase brand size */
+    color: #007bff; /* Brand color */
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1); /* Light border for toggler */
+}

@@ -1,0 +1,16 @@
+.todoContainer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid blue;
+    padding: 12px;
+}
+.showToList{
+    margin-top: 50px;
+}
+
+.rightPosition{
+    display: flex;
+    justify-content: end;
+}
